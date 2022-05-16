@@ -4,9 +4,8 @@ import Navbar from '../Navbar/Navbar'
 
 function Header() {
   return (
-    <div>
-        <h1>Header</h1>
-        <p>Navbar is inside here</p>
+    <div className="header">
+      <div className="headerTitle">Ballard Street Cafe</div>
         <Navbar />
     </div>
   )

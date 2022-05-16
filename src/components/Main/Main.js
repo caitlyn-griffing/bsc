@@ -6,7 +6,7 @@ function Main() {
   return (
     <div className="main">
       <div className="icon">
-        <a href="https://www.facebook.com"><i class="fa-solid fa-thumbs-up fa-2xl"></i></a>
+        <a href="https://www.facebook.com/BallardStreetCafe" target="_blank" rel="noreferrer"><i class="fa-solid fa-thumbs-up fa-3x"></i> <span>Like us on Facebook!</span></a>
       </div>
       <div className="mainContentCtn">
         <div className="mainInfo">

@@ -1,11 +1,16 @@
 .main {
-    margin: 3rem;
+    margin: 9rem 3rem;
     .icon {
         margin: 1rem;
         a {
             color: var(--lightGrey);
             cursor: pointer;
             margin: 1rem;
+            text-decoration: none;
+            span {
+                padding-left: 1rem;
+                font-size: 1.3rem;
+            }
         }
     }
     .mainContentCtn {
@@ -34,7 +39,7 @@
             center;
             padding-bottom: 5rem;
             img {
-                width: 75%;
+                width: 60%;
                 box-shadow: var(--boxShadowDark);
             }
         }
@@ -46,7 +51,7 @@
         .mainTitles {
             font-size: 3em;
             font-family: 'Marlboro';
-            letter-spacing: 0.5rem;
+            letter-spacing: 0.3rem;
             color: var(--lightYellow);
             padding-bottom: 0.7rem;
         }

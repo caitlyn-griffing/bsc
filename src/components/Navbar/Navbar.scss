@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    .navLink {
+        font-size: 1.7rem;
+        padding: 0 1rem;
+        font-weight: bold;
+    }
+}

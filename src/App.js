@@ -2,13 +2,13 @@ import React from 'react'
 import './App.scss'
 import './fonts/Marlboro.ttf';
 
-
 import {
   Home,
   Breakfast,
   Lunch,
   Dinner,
-  Reviews
+  Reviews,
+  Footer
 } from './pages'
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       <Lunch />
       <Dinner />
       <Reviews />
+      <Footer />
     </div>
   )
 }
