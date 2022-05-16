@@ -1,4 +1,8 @@
 import React from 'react'
+import './App.scss'
+import './fonts/Marlboro.ttf';
+
+
 import {
   Home,
   Breakfast,

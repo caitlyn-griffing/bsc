@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from './Navbar'
+import './Header.scss'
+import Navbar from '../Navbar/Navbar'
 
 function Header() {
   return (
