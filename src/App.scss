@@ -6,12 +6,15 @@
 
 :root {
     --teaGreen: rgba(195, 216, 163, 1);
-    --lightYellow: rgba(255, 225, 162, 1);
+    --lightYellow: rgb(230, 196, 123);
     --orange: rgba(226, 109, 84, 1);
     --mauve: rgba(114, 61, 70, 1);
     --maroon: rgba(71, 15, 1, 1);
     --maroonOP: rgba(16, 3, 3, 0.75);
     --lightGrey: rgb(188, 188, 188);
+    --lightGreyOP: rgba(87, 87, 87, 0.5);
+    --white: rgba(255, 255, 255);
+    --boxShadowDark: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 * {
