@@ -1,10 +1,17 @@
-.navbar {
+#navbar ul {
     display: flex;
-    justify-content: space-between;
-    padding-right: 2rem;
-    .navLink {
-        font-size: 1.7rem;
-        padding: 0 1rem;
-        font-weight: bold;
+    li {
+        display: flex;
+        padding: 7px;
+        a {
+            text-decoration: none;
+            color: var(--white);
+            padding: 7px;
+            font-size: 2rem;
+            &:hover {
+                border: 1px solid var(--white);
+                border-radius: 3px;
+            }
+        }
     }
 }
